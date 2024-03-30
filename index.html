@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhunjie Lachica</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav id="header">
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="solid.html">E-commerce Development</a></li>
+        </ul>
+    </nav>
+    <header class="scroll-reveal">
+        <h1>Jhunjie Lachica</h1>
+        <p>BS Information Technology, First Year Student</p>
+        <a>Central Philippine State University - Hinigaran</a>
+    </header>
+
+    <section id="about" class="scroll-reveal">
+        <h2 class="text-reveal" data-text="About Me">About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate individual with a diverse set of skills and interests. I thrive on challenges and am always eager to learn new things. As a fast learner, critical thinker, and artistic individual, I bring a unique perspective to everything I do.</p>
+
+            <p>One of my greatest strengths is my ability to code in several languages, allowing me to tackle a wide range of projects and problems. Whether it's creating a website, developing a mobile app, or solving complex algorithms, I approach each task with enthusiasm and creativity.</p>
+
+            <p>Outside of coding, I have a variety of hobbies that keep me engaged and inspired. I enjoy playing chess, diving into a good book, capturing moments through photography, and exploring new musical instruments. I also love engaging in debates, solving twisty puzzles, and occasionally unwinding with some online games.</p>
+
+            <p>I believe that my skills, coupled with my passion for learning and creativity, make me a valuable asset to any team or project. I'm excited to continue growing and exploring new opportunities in the world of technology and beyond.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="scroll-reveal">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <section id="images" class="scroll-reveal">
+        <div class="main">
+            <div class="title">
+                <h1>My Images</h1>
+                <small>Some of which are my traveling experiences</small>
+            </div>
+            <div class="container">
+                <button id="prev" class="btn">&lt;</button>
+                <div class="image-container">
+                    <span style="--i: 10;"><img src="IMG_20231202_204043.jpg"></span>
+                    <span style="--i: 1;"><img src="IMG_20231202_204043.jpg"></span>
+                    <span style="--i: 2;"><img src="wallpaper.jpg"></span>
+                    <span style="--i: 3;"><img src="received_395114436180135.jpeg"></span>
+                    <span style="--i: 4;"><img src="received_25060473470210256.jpeg"></span>
+                    <span style="--i: 5;"><img src="IMG_20231228_213459.jpg"></span>
+                    <span style="--i: 6;"><img src="received_6961181667305740.jpeg"></span>
+                    <span style="--i: 7;"><img src="Picsart_24-03-20_17-32-27-557.jpg"></span>
+                    <span style="--i: 8;"><img src="Picsart_24-02-22_14-24-15-284.jpg"></span>
+                    <span style="--i: 9;"><img src="Picsart_24-02-25_13-55-38-832.jpg"></span>
+                    <span style="--i: 10;"><img src="Picsart_24-03-20_17-33-46-905.jpg"></span>
+                </div>
+                <button id="next" class="btn">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="scroll-reveal">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>This Portfolio Itself</h3>
+            <p>Web Design and Development skills and progress should be evident here.</p>
+            <a>!!! Under Development !!!</a>
+        </div>
+        
+        <section id="chat-system" class="scroll-reveal"> 
+            <h2>Chat System Trial</h2> 
+            <div class="project"> 
+                <h3>A Fully Responsive Chat System</h3> 
+                <p>A simple real-time chat application that receives user input</p> 
+                <button id="p1-button" onclick="window.location.href='chatindex.html'" target="_blank">View Chat System</button> 
+            </div>
+        </section>
+        
+        <section id="tictactoe" class="scroll-reveal">
+            <h2>Simple Tic Tac Toe Game</h2>
+            <div class="project">
+                <h3>A Fully Responsive Tic Tac Toe Web Application</h3>
+                <p>Simple 2-player game of Xs and Os</p>
+                <button id="p2-button" onclick="window.location.href='TTTindex.html'" target="_blank">View Game</button>
+            </div>
+        </section>
+    </section>
+
+    <section id="contact" class="scroll-reveal">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button id="send-button" type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="scroll-reveal">
+        <p>&copy; 2024 JHUNJIE LACHICA</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
