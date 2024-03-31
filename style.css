@@ -280,4 +280,47 @@ footer {
         width: 90%;
     }
 
-   
+.title {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    .btn {
+        height: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .image-container {
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    #prev,
+    #next {
+        display: none;
+    }
+
+    #about,
+    #skills,
+    #projects,
+    #contact {
+        padding: 30px;
+    }
+
+    #tictactoe,
+    #chat-system {
+        padding: 30px;
+    }
+
+    #p1-button,
+    #p2-button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}   
